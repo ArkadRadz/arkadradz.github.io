@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homepage-element {
+    @apply px-2 text-center text-3xl dark:text-gray-300 text-black dark:hover:text-white 
+    hover:font-medium hover:text-gray-500 transition-all ease-linear;
+}
+
+.homepage-divider {
+    @apply divide-x divide-gray-400;
+}
+
+.homepage-grid-container {
+    @apply grid grid-flow-row mt-2;
+}
+
+.homepage-name {
+    @apply text-center text-6xl dark:text-white text-black;
+}
+
+.homepage-name-container {
+    @apply flex flex-row py-2 border-b-4 border-gray-700 dark:border-gray-500;
+}
+
+.homepage-container {
+    @apply flex items-center justify-center flex-col h-screen bg-slate-100 dark:bg-slate-800;
+}
+
+.cv-section-title {
+    @apply text-2xl pb-1;
+}
+
+.cv-skill-element {
+    @apply px-2 inline;
+}
+
+.cv-name-background {
+    @apply flex flex-row flex-wrap md:flex-nowrap items-center rounded-3xl sm:rounded-tl-[100px]
+    justify-center md:justify-start sm:max-w-fit sm:mx-auto py-4 sm:py-0
+    sm:rounded-bl-[100px] bg-slate-200 dark:bg-gray-700;
+}
+
+.cv-grid-container {
+    @apply grid grid-flow-row justify-center items-center py-4 max-w-xl
+    justify-center items-center;
+}
+
+.cv-flex-container {
+    @apply flex justify-center dark:text-white text-black;
+}
+
+.cv-body-background-color {
+    @apply dark:bg-gray-600 bg-gray-50;
+}
+
+.cv-name-text {
+    @apply text-3xl px-4 basis-3/4 text-center align-middle inline-block pb-2;
+}
